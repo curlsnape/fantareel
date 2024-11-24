@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+main {
+  min-height: 100vh;
+  width: 100%;
+  /* background-color: blueviolet; */
+}
+
+nav {
+  position: fixed;
+  height: 10vh;
+  z-index: 4;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0vw 8vw;
+}
+nav img {
+  width: 4vw;
+  object-fit: cover;
+}
+.nav2 {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+.nav2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1vw;
+  font-weight: 400;
+}
+nav i {
+  font-size: 1.5vw;
+  color: white;
+}
+.one {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(170deg, orange, rgba(255, 0, 0, 0.938));
+}
+#fanta {
+  width: 40%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 3;
+  
+}
+#slice {
+  width: 15%;
+  object-fit: cover;
+  z-index: 2;
+  position: absolute;
+  top: 12%;
+  left: 33%;
+}
+#orange {
+  width: 15%;
+  object-fit: cover;
+  z-index: 4;
+  position: absolute;
+  top: 62%;
+  left: 52%;
+}
+
+#lleaf {
+  position: absolute;
+  width: 10%;
+  object-fit: cover;
+
+  left: 8%;
+  top: 10%;
+}
+#rleaf {
+  position: absolute;
+  width: 10%;
+  object-fit: cover;
+  right: 8%;
+  top: 70%;
+}
+.two {
+  /* position: relative; */
+  height: 100vh;
+  width: 100%;
+  background-color: #6b0000;
+  display: flex;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* padding: 5vw; */
+  width: 50%;
+  justify-content: flex-end;
+}
+.left svg {
+  margin-left: 15%;
+  width: 45%;
+}
+
+.right {
+  height: 100%;
+  width: 50%;
+  padding-right: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #6b0000;
+}
+.right h1 {
+  font-size: 4vw;
+  color: white;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+.right p {
+  font-size: 1.2vw;
+  color: white;
+  margin-bottom: 2vw;
+}
+.three {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+  padding-top: 5vw;
+  background: linear-gradient(170deg, rgb(221, 144, 0), rgba(255, 8, 8, 0.938));
+}
+#card {
+  position: relative;
+  height: 70vh;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 3%;
+  background-color: rgb(139, 233, 139);
+}
+#card h1 {
+  margin-top: 95%;
+  font-size: 3vw;
+}
+#card2 h1 {
+  margin-top: 85%;
+  font-size: 3vw;
+}
+#card3 h1 {
+  margin-top: 95%;
+  font-size: 3vw;
+}
+#card2 {
+  height: 70vh;
+  width: 20%;
+  border-radius: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 143, 103);
+}
+.btn {
+  /* background-color: rgb(1, 218, 1); */
+  background: linear-gradient(rgb(255, 11, 11), rgb(238, 155, 1));
+  padding: 1vw 2.5vw;
+  border-radius: 20px;
+  border: none;
+  margin-top: 0.5vw;
+  color: white;
+  font-size: 1.5vw;
+}
+#card3 {
+  height: 70vh;
+  width: 20%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 3%;
+  background-color: rgb(253, 95, 95);
+}
+
+#sprite {
+  width: 70%;
+  top: -5%;
+  object-fit: cover;
+  position: absolute;
+}
+#lemon {
+  width: 80%;
+  position: absolute;
+  top: -28%;
+  object-fit: cover;
+}
+#lemon2 {
+  width: 80%;
+  position: absolute;
+  top: -28%;
+  object-fit: cover;
+}
+#coke {
+  position: absolute;
+  width: 62%;
+  height: 70%;
+  object-fit: cover;
+  top: -5%;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
